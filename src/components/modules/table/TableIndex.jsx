@@ -75,7 +75,7 @@ export default function TableIndex() {
           value={search}
           onChange={(e) => setSearch(e.currentTarget.value)}
           styles={{
-            input: { backgroundColor: "black" },
+            input: { backgroundColor: "black", color : 'white' },
             wrapper: {
               outline: "2px solid green",
               outlineOffset: "-2px  ",
